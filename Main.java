@@ -6,7 +6,10 @@ public class Main {
         r.distance = 5;
         r.showworkout();
         r.showrunning();
-
+        Cycling c=new Cycling();
+        c.speed=40;
+        c.showcycling();
     }
 
 }
+
