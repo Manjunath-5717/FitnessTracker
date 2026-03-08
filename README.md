@@ -25,7 +25,8 @@ FitnessTracker
 ├── Main.java
 ├── Workout.java
 ├── Running.java
-└── (future classes)
+├── Cycling.java
+└── CalorieCalculator.java
 ```
 
 ### File Descriptions
