@@ -11,6 +11,7 @@ public class Main {
         switch(choice){
             case 1: System.out.println("enter the name of workout");
                     r.name = scanner.nextLine();
+                    scanner.nextLine();
                     System.out.println("enter the duration of workout");
                     r.duration = scanner.nextInt();
                     r.showworkout();
@@ -23,9 +24,10 @@ public class Main {
                     r.showrunning();
                     break;
             case 3: System.out.println("enter the speed you went");
+                    c.speed=scanner.nextInt();
                     c.name = "cycling";
                     c.duration = 25;
-                    c.speed = 50;
+                    
                     c.showworkout();
                     c.showcycling();
                     break;
@@ -38,8 +40,9 @@ public class Main {
             default: System.out.println("invalid choice ");
             break;
         }
-    }
-}while(true);
+    }while(true);
+}
 
 }
+
 
