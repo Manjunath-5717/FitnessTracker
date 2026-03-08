@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -10,11 +11,12 @@ public class Main {
         int choice = scanner.nextInt();
         switch(choice){
             case 1: System.out.println("enter the name of workout");
-                    r.name = scanner.nextLine();
                     scanner.nextLine();
+                    r.name = scanner.nextLine();
                     System.out.println("enter the duration of workout");
                     r.duration = scanner.nextInt();
                     r.showworkout();
+                    c1.caluculator(r.duration);
                     break;
             case 2 : System.out.println("enter the distance in kms");
                     r.distance = scanner.nextInt();
@@ -22,6 +24,7 @@ public class Main {
                     r.duration = 20;
                     r.showworkout();
                     r.showrunning();
+                    c1.caluculator(r.duration);
                     break;
             case 3: System.out.println("enter the speed you went");
                     c.speed=scanner.nextInt();
@@ -30,6 +33,7 @@ public class Main {
                     
                     c.showworkout();
                     c.showcycling();
+                        c1.caluculator(c.duration);
                     break;
             case 4: System.out.println("enter the minutes and intensity ");
                     int time = scanner.nextInt();
@@ -38,6 +42,7 @@ public class Main {
                      System.out.println("the calories for only time is : "+c1.caluculator(time));
                     break;
             default: System.out.println("invalid choice ");
+            System.exit(0);
             break;
         }
     }while(true);
