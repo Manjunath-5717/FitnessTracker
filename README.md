@@ -223,7 +223,11 @@ Possible improvements to the project:
 
 ## Authors
 
-@Prashanthcoder
-@Manjunath-5717
+## Contributors
+
+| Name | GitHub |
+|-----|------|
+| Prashanth T  | [@Prashanthcoder](https://github.com/Prashanthcoder) |
+| Manjunath A R | [@Manjunath-5717](https://github.com/Manjunath-5717) |
 
 Collaborative project built for practicing **Java and Git workflows**.
